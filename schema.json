@@ -1,0 +1,16 @@
+{
+    "title": "icom block",
+	"type": "object",
+    "id": "block",
+	"properties": {
+		"name": {
+			"type": "string"},
+		"children":{
+			"type": "array",
+			"items":{
+				"type": "object",
+				"$ref": "block"
+			}
+		}
+	}
+}

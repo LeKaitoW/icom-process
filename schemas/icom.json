@@ -1,0 +1,14 @@
+{
+    "id": "urn:icom_block#",
+	"type": "object",
+	"title": "ICOM-block",
+	"properties": {
+		"children":{
+			"type": "array",
+			"items":{
+				"type": "object",
+				"$ref": "urn:icom_block#"
+			}
+		}
+	}
+}
